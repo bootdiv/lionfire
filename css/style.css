@@ -602,6 +602,7 @@ html {
 
 
     #welcome::before,
+    .fc-box::before,
     .fun-bg::before {
         width: 100%;
     }
