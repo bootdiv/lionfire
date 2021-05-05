@@ -342,6 +342,7 @@ html {
     color: #8476AA;
     display: inline-block;
     padding: 2px 0;
+    width: 100%;
 }
 
 .content h2.title {
@@ -365,6 +366,7 @@ html {
     color: #8476AA;
     display: inline-block;
     padding: 2px 0;
+    width: 100%;
 }
 
 .video-js:hover .vjs-big-play-button,
@@ -431,6 +433,10 @@ html {
 .mm-wrapper_opened .navbar-mobile {
     display: block;
     min-height: auto;
+}
+
+.navbar-collapse .close {
+    display: none;
 }
 
 /* Footer CSS */
@@ -504,6 +510,7 @@ html {
     }
 
     .navbar-collapse .close {
+        display: block;
         color: #B5B5B5;
         opacity: 1;
         margin-top: -20px;
@@ -616,6 +623,7 @@ html {
     }
 
     .navbar-collapse .close {
+        display: block;
         color: #B5B5B5;
         opacity: 1;
         margin-top: -20px;
