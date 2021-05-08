@@ -95,6 +95,10 @@ html {
     opacity: 0.8;
 }
 
+.button-cb span {
+    text-transform: none;
+}
+
 .body-banner {
     background-image: url('../images/bg0.png');
     background-repeat: repeat-x;
@@ -291,6 +295,16 @@ html {
     font-style: normal;
     color: #fff;
     line-height: 1.9;
+}
+
+.title-sec h2.red .follow {
+    display: inline-block;
+    background: #E9532F;
+    padding: 3px 30px;
+    font-size: 20px;
+    min-width: 200px;
+    margin-bottom: 12px;
+    border-radius: 5px;
 }
 
 .title-sec h2 span {
