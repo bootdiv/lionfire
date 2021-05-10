@@ -383,25 +383,9 @@ html {
     width: 100%;
 }
 
-.video-js:hover .vjs-big-play-button,
-.video-js .vjs-big-play-button {
-    border: 0;
-    background: transparent;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -84px;
-    margin-top: -84px;
-}
-
-.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
-    content: '';
-    background-image: url('../images/play.png');
-    background-repeat: no-repeat;
-    background-size: 168px 168px;
-    width: 168px;
-    height: 168px;
-    opacity: 0.5;
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 .faq {

@@ -1,8 +1,4 @@
 $(document).ready(function () {
-    // Video
-    var player = videojs('video', {
-        aspectRatio: '16:9'
-    });
 
     // Navigation scrolls
     $(".navbar-nav li a").on('click', function (event) {
